@@ -21,15 +21,15 @@ import zipfile
 
 # ===================== CONFIGURACION =====================
 # Ruta al .ged que has exportado de Gramps:
-GED_PATH = r"C:\Users\nit\LOarbre\LOArbre.ged"
+GED_PATH = r"C:\Users\nit\LOClaude\LOarbre\LOArbre.ged"
 
 # Carpeta donde tienes todas las fotos consolidadas
 # (la misma que tienes como base path de media en Gramps,
 #  o cualquier carpeta donde esten todas):
-MEDIA_DIR = r"C:\Users\nit\LOarbre\media"
+MEDIA_DIR = r"C:\Users\nit\LOClaude\LOarbre\media"
 
 # Donde guardar el .gdz resultante:
-OUTPUT_GDZ = r"C:\Users\nit\LOarbre\LOArbre.gdz"
+OUTPUT_GDZ = r"C:\Users\nit\LOClaude\LOarbre\LOArbre.gdz"
 # =========================================================
 
 
