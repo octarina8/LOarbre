@@ -1,7 +1,41 @@
-# Public Directory
+# LOarbre — Árbol genealógico familiar
 
-This directory contains static assets that are served directly by the web server. In this project, files in the `public` directory are served at the root path.
+Árbol genealógico interactivo publicado con [Topola Genealogy Viewer](https://github.com/PeWu/topola-viewer).
 
-## Files
+## Ver el árbol
 
-- [favicon.png](favicon.png): The icon displayed in the browser tab.
+**Link directo (con fotos):**
+https://octarina8.github.io/LOarbre/#/view?gen=0&handleCors=false&indi=I0001&url=https%3A%2F%2Foctarina8.github.io%2FLOarbre%2FLOArbre.gdz
+
+**Link alternativo:**
+https://octarina8.github.io/LOarbre/#/view?url=https://octarina8.github.io/LOarbre/LOArbre.gdz&handleCors=false
+
+---
+
+## Cómo funciona (para otros proyectos)
+
+Si quieres montar tu propio árbol, el patrón de la URL es:
+
+```
+https://TU_USUARIO.github.io/arbol-familiar/#/view?url=https://TU_USUARIO.github.io/arbol-familiar/mi-arbol.ged&handleCors=false
+```
+
+---
+
+## Cómo actualizar el árbol online
+
+1. **Exportar desde Gramps:** Archivo → Exportar → formato GEDCOM → sobreescribir `LOArbre.ged`
+
+2. **Regenerar el `.gdz`** (empaqueta el `.ged` con todas las fotos):
+   ```
+   python make-gdz.py
+   ```
+
+3. **Subir a GitHub:**
+   ```
+   git add .
+   git commit -m "actualización árbol"
+   git push
+   ```
+
+4. **Esperar unos minutos** y abrir el link para ver los cambios.
