@@ -1,14 +1,14 @@
-# LOarbre — Árbol genealógico familiar
+# LOArbre — Árbol genealógico familiar
 
 Árbol genealógico interactivo publicado con [Topola Genealogy Viewer](https://github.com/PeWu/topola-viewer).
 
 ## Ver el árbol
 
 **Link directo (con fotos):**
-https://octarina8.github.io/LOarbre/#/view?gen=0&handleCors=false&indi=I0001&url=https%3A%2F%2Foctarina8.github.io%2FLOarbre%2FLOArbre.gdz
+https://octarina8.github.io/LOArbre/#/view?gen=0&handleCors=false&indi=I0001&url=https%3A%2F%2Foctarina8.github.io%2FLOArbre%2FLOArbre.gdz
 
 **Link alternativo:**
-https://octarina8.github.io/LOarbre/#/view?url=https://octarina8.github.io/LOarbre/LOArbre.gdz&handleCors=false
+https://octarina8.github.io/LOArbre/#/view?url=https://octarina8.github.io/LOArbre/LOArbre.gdz&handleCors=false
 
 ---
 
